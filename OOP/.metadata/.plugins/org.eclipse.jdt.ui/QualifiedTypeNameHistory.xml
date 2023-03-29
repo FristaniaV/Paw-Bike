@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="main.Main"/>
+<fullyQualifiedTypeName name="model.Artifact"/>
+<fullyQualifiedTypeName name="model.PurpleArtifact"/>
+<fullyQualifiedTypeName name="model.GoldenArtifact"/>
+<fullyQualifiedTypeName name="model.Vege"/>
+<fullyQualifiedTypeName name="model.NonVege"/>
+<fullyQualifiedTypeName name="model.Food"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID"/>
+<fullyQualifiedTypeName name="model.Gun"/>
+<fullyQualifiedTypeName name="model.Blade"/>
+<fullyQualifiedTypeName name="model.Footwear"/>
+<fullyQualifiedTypeName name="model.Heels"/>
+<fullyQualifiedTypeName name="model.RollerSkate"/>
+<fullyQualifiedTypeName name="model.MagicItem"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="model.Weapon"/>
+<fullyQualifiedTypeName name="model.Spellbook"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="main.Order"/>
+<fullyQualifiedTypeName name="tableOrder"/>
+<fullyQualifiedTypeName name="customerTable"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="level.Basic"/>
+<fullyQualifiedTypeName name="level.Silver"/>
+<fullyQualifiedTypeName name="level.Gold"/>
+<fullyQualifiedTypeName name="level.Platinum"/>
+<fullyQualifiedTypeName name="level.User"/>
+</qualifiedTypeNameHistroy>

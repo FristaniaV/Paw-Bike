@@ -1,0 +1,211 @@
+import java.util.Scanner;
+
+public class Yyyyyy 
+{
+	Scanner scan = new Scanner(System.in);
+
+	public Yyyyyy() 
+	{
+		// Variables declaration
+		String nama;
+		String minuman;
+		String yesno;
+		String topping;
+		String yesno2;
+		String topping2;
+		Integer harga = null;
+		Integer hargatopping = null;
+		Integer hargatopping2 = null;
+		Integer total = null;
+		
+		// Name input
+		do
+		{
+			System.out.print("Input Your Name: ");
+			nama = scan.nextLine();
+			if (nama.split("\\s+").length < 2)
+			{
+				System.out.println("Name must minimal consists of two words.");
+			}
+		}
+		while (nama.split("\\s+").length < 2);
+		
+		// Drink input
+		do
+		{
+			System.out.print("Input your desire drink type [ Milk Tea | Coffee Latte | Honey Tea ] (Case Sensitive): ");
+			minuman = scan.nextLine();
+		}
+		while (!(minuman.equals("Milk Tea") || minuman.equals("Coffee Latte") || minuman.equals("Honey Tea")));
+		
+		// Choice 1
+		do
+		{
+			System.out.print("Do you want to add topping [Y | N] (Case Sensitive): ");
+			yesno = scan.nextLine();
+		}
+		while (!(yesno.equals("Y") || yesno.equals("N")));
+		
+		// If yes 1
+		if(yesno.equals("Y"))
+		{
+			// Topping input
+			do
+			{
+				System.out.print("Choose your disire topping [ Boba | Rainbow Jelly | Coconut Jelly ] (Case Sensitive): ");
+				topping = scan.nextLine();
+				if (!(topping.equals("Boba") || topping.equals("Rainbow Jelly") || topping.equals("Coconut Jelly")))
+				{
+					System.out.println("Topping must be in [ Boba | Rainbow Jelly | Coconut Jelly ]");
+				}
+			}
+			while (!(topping.equals("Boba") || topping.equals("Rainbow Jelly") || topping.equals("Coconut Jelly"))); 
+			
+			// Choice 2
+			do
+			{
+				System.out.print("Do you want to add topping [Y | N] (Case Sensitive): ");
+				yesno2 = scan.nextLine();
+			}
+			while (!(yesno2.equals("Y") || yesno2.equals("N")));
+		
+			//	If yes 2
+			if(yesno2.equals("Y"))
+			{
+				do
+				{
+					System.out.print("Choose your disire topping [ Boba | Rainbow Jelly | Coconut Jelly ] (Case Sensitive): ");
+					topping2 = scan.nextLine();
+					if (topping2.equals(topping))
+					{
+						System.out.println("Topping can't be the same!");
+					}
+				}
+				while (!(topping.equals("Boba") || topping.equals("Rainbow Jelly") || topping.equals("Coconut Jelly")) || topping2.equals(topping));
+		
+				// Price index --> Double topping
+			
+				// Drink price
+				if (minuman.equals("Milk Tea"))
+				{
+					harga = 10000;
+				}
+				else if (minuman.equals("Coffee Latte"))
+				{
+					harga = 15000;
+				}
+				else if (minuman.equals("Honey Tea"))
+				{
+					harga = 20000;
+				}
+			
+				// Topping1 price 
+				if (topping.equals("Boba"))
+				{
+					hargatopping = 5000;
+				}
+				else if (topping.equals("Rainbow Jelly"))
+				{
+					hargatopping = 6000;
+				}
+				else if (topping.equals("Coconut Jelly"))
+				{
+					hargatopping = 7000;
+				}
+			
+				// Topping2 price
+				if (topping2.equals("Boba"))
+				{
+					hargatopping2 = 5000;
+				}
+				else if (topping2.equals("Rainbow Jelly"))
+				{
+					hargatopping2 = 6000;
+				}
+				else if (topping2.equals("Coconut Jelly"))
+				{
+					hargatopping2 = 7000;
+				}
+				
+				// Final calculation --> Double topping
+				total = harga + hargatopping + hargatopping2; 
+			
+				System.out.println("Nama\t\t: " +nama);
+				System.out.println("Drink Type\t: " + minuman);
+				System.out.println("Topping\t\t: " +topping +topping2);
+				System.out.println("Drink Price\t: " + total);
+			}
+		
+			// If no 2
+			else 
+			{
+				// Price index --> Single topping
+				
+				// Drink price
+				if (minuman.equals("Milk Tea"))
+				{
+					harga = 10000;
+				}
+				else if (minuman.equals("Coffee Latte"))
+				{
+					harga = 15000;
+				}
+				else if (minuman.equals("Honey Tea"))
+				{
+					harga = 20000;
+				}
+						
+				// Topping1 price
+				if (topping.equals("Boba"))
+				{
+					hargatopping = 5000;
+				}
+				else if (topping.equals("Rainbow Jelly"))
+				{
+					hargatopping = 6000;
+				}
+				else if (topping.equals("Coconut Jelly"))
+				{
+					hargatopping = 7000;
+				}		
+				
+				// Final calculation --> Single topping
+				total = harga + hargatopping;
+
+				System.out.println("Nama\t\t: " +nama);
+				System.out.println("Drink Type\t: " + minuman);
+				System.out.println("Topping\t\t: " +topping);
+				System.out.println("Drink Price\t: " + total);
+			}
+		}
+		
+		// If no 1
+		else
+		{
+			// Price index --> No topping
+			if (minuman.equals("Milk Tea"))
+			{
+				harga = 10000;
+			}	
+			else if (minuman.equals("Coffee Latte"))
+			{
+				harga = 15000;
+			}
+			else if (minuman.equals("Honey Tea"))
+			{
+				harga = 20000;
+			}
+			
+			// Final calculation --> No topping
+			System.out.println("Nama\t\t: " +nama);
+			System.out.println("Drink Type\t: " + minuman);
+			System.out.println("Topping\t\t: None");
+			System.out.println("Drink Price\t: " + harga);
+		}
+	}
+
+	public static void main(String[] args)
+	{
+		new Yyyyyy();
+	}
+}

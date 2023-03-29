@@ -1,0 +1,21 @@
+package main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	Scanner scan = new Scanner(System.in);
+	//ke basic bukan ke user karena dia awalnya langsung auto ke BASIC
+	ArrayList<Basic> basicData = new ArrayList<Basic>();
+	
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

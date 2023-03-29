@@ -1,0 +1,11 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="model.Artifact"><rhs name\="model.PurpleArtifact"/><rhs name\="model.GoldenArtifact"/></lhs><lhs name\="model.PurpleArtifact"><rhs name\="model.PurpleArtifact"/></lhs><lhs name\="model.GoldenArtifact"><rhs name\="model.GoldenArtifact"/></lhs><lhs name\="model.Food"><rhs name\="model.Vege"/></lhs><lhs name\="model.Vege"><rhs name\="model.Vege"/></lhs><lhs name\="model.Weapon"><rhs name\="model.Gun"/><rhs name\="model.Blade"/><rhs name\="model.Weapon"/></lhs><lhs name\="model.Gun"><rhs name\="model.Gun"/></lhs><lhs name\="model.Blade"><rhs name\="model.Blade"/></lhs><lhs name\="model.Footwear"><rhs name\="model.Heels"/></lhs><lhs name\="model.Heels"><rhs name\="model.Heels"/></lhs><lhs name\="model.MagicItem"><rhs name\="model.Weapon"/><rhs name\="model.Spellbook"/></lhs><lhs name\="model.Spellbook"><rhs name\="model.Spellbook"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="main.Order"><rhs name\="main.Order"/></lhs><lhs name\="tableOrder"><rhs name\="tableOrder"/></lhs><lhs name\="customerTable"><rhs name\="customerTable"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=19
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
